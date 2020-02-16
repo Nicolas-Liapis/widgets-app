@@ -1,0 +1,48 @@
+@import "./colors.scss";
+//Font weights
+$light: 300;
+$regular: 400;
+$semibold: 500;
+$bold: 700;
+
+
+//mix-ins
+@mixin heading-1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+    color: map-get($grey-colors, grey-9);
+    font-weight: $light;
+    line-height: 1em;
+  }
+
+  @mixin heading-2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 22px;
+    color: map-get($grey-colors, grey-9);
+    font-weight: $light;
+    line-height: 1em;
+  }
+
+  @mixin heading-3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    color: map-get($grey-colors, grey-9);
+    font-weight: $light;
+    line-height: 1em;
+  }
+
+  @mixin heading-4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    color: map-get($grey-colors, grey-9);
+    font-weight: $regular;
+    line-height: 1em;
+  }
+
+  @mixin body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: map-get($grey-colors, grey-9);
+    font-weight: $regular;
+    line-height: 1.5em;
+  }

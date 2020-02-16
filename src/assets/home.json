@@ -1,0 +1,59 @@
+{
+  "title": "Sample Home Page",
+  "widgets": [
+    {
+      "widgetId": 1,
+      "title": "Test data A",
+      "data": {
+        "value": 45.562,
+        "format": "percent"
+      },
+      "status": 3
+    },
+    {
+      "widgetId": 2,
+      "title": "Test data B",
+      "data": {
+        "value": 12300089.00,
+        "format": "currency"
+      },
+      "status": 0
+    },
+    {
+      "widgetId": 3,
+      "title": "Test data C",
+      "data": {
+        "value": 83.266,
+        "format": "percent"
+      },
+      "status": 1
+    },
+    {
+      "widgetId": 4,
+      "title": "Test data D",
+      "data": {
+        "value": "2021-04-18",
+        "format": "date"
+      },
+      "status": 3
+    },
+    {
+      "widgetId": 5,
+      "title": "Test data E",
+      "data": {
+        "value": "No Results",
+        "format": ""
+      },
+      "status": 1
+    },
+    {
+      "widgetId": 6,
+      "title": "Test data F",
+      "data": {
+        "value": 0.45,
+        "format": "currency"
+      },
+      "status": 2
+    }
+  ]
+}

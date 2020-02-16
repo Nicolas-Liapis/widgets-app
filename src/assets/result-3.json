@@ -1,0 +1,127 @@
+{
+  "title": "Test Data C Results",
+  "display": [
+    {
+      "label": "Country",
+      "value": "France",
+      "format": ""
+    },
+    {
+      "label": "Import",
+      "value": 12300000,
+      "format": "currency"
+    },
+    {
+      "label": "Tariff",
+      "value": 10,
+      "format": "percent"
+    },
+    {
+      "label": "Loss",
+      "value": 5.32,
+      "format": "percent"
+    }
+  ],
+  "widgets": [
+    {
+      "widgetId": 31,
+      "title": "Test Data CA",
+      "data": {
+        "value": 5.32,
+        "format": "percent"
+      },
+      "status": 2
+    },
+    {
+      "widgetId": 32,
+      "title": "Test Data CB",
+      "data": {
+        "value": 12300000.00,
+        "format": "currency"
+      },
+      "status": 1
+    },
+    {
+      "widgetId": 33,
+      "title": "Test Data CC",
+      "data": {
+        "value": 0,
+        "format": "percent"
+      },
+      "status": 3
+    },
+    {
+      "widgetId": 34,
+      "title": "Test Data CD",
+      "data": {
+        "value": 22,
+        "format": "percent"
+      },
+      "status": 0
+    }
+  ],
+  "listSchema": [
+    {
+      "label": "Region",
+      "property": "region",
+      "format": "",
+      "order": 1
+    },
+    {
+      "label": "Import",
+      "property": "import",
+      "format": "",
+      "order": 2
+    },
+    {
+      "label": "Total",
+      "property": "total",
+      "format": "currency",
+      "order": 3
+    },
+    {
+      "label": "Loss",
+      "property": "loss",
+      "format": "percent",
+      "order": 4
+    }
+  ],
+  "list": [
+    {
+      "region": "South America",
+      "import": "Clothing",
+      "total": 256000,
+      "loss": -10
+    },
+    {
+      "region": "Africa",
+      "import": "Gems, precious metals",
+      "total": 123432.32,
+      "loss": 1.009
+    },
+    {
+      "region": "North America",
+      "import": "Pharmaceuticals",
+      "total": 435650,
+      "loss": 0
+    },
+    {
+      "region": "East Europe",
+      "import": "Vehicles",
+      "total": 554330,
+      "loss": 12.22
+    },
+    {
+      "region": "Middle East",
+      "import": "Machinery",
+      "total": 32454.0,
+      "loss": 0.34
+    },
+    {
+      "region": "The Caribbean",
+      "import": "Rum",
+      "total": 16004.568,
+      "loss": 1.1
+    }
+  ]
+}

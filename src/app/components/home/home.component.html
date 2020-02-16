@@ -1,0 +1,23 @@
+<app-top-nav [pageTitle]="homeTitle"></app-top-nav>
+
+<div class="main">
+    <div class="card bg" *ngFor="let w of homeWidgets">  
+        <a [routerLink]="['/result', w.widgetId]">
+            <p class="sub-title">{{w.title}}</p>
+            <div [ngSwitch]="w.data.format">
+                <span class="value" *ngSwitchCase="'date'">{{w.data.value | dateP}}</span>
+                <span class="value" *ngSwitchCase="'percent'">{{(w.data.value/100) | percent:'1.1'}}</span>
+                <span class="value" *ngSwitchCase="'currency'">{{w.data.value | currency:'GBP'}}</span>
+                <span class="value" *ngSwitchDefault>No Data</span>
+            </div>
+            <div [ngSwitch]="w.status">
+                <span class="status green" *ngSwitchCase="'1'"><p class="body-text white">Good</p></span>
+                <span class="status yellow" *ngSwitchCase="'2'"><p class="body-text white">Warning</p></span>
+                <span class="status red" *ngSwitchCase="'3'"><p class="body-text white">Danger</p></span>
+                <span class="status none" *ngSwitchDefault></span>
+            </div>
+        </a>
+        
+    </div>
+</div>
+

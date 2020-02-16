@@ -1,0 +1,124 @@
+{
+    "title": "Test Data A Results",
+    "display":[
+      {
+        "label": "Location",
+        "value": "London",
+        "format": ""
+      },
+      {
+        "label": "Region",
+        "value": "South",
+        "format": ""
+      },
+      {
+        "label": "Turnover",
+        "value": 326215.89,
+        "format": "currency"
+      },
+      {
+        "label": "Rating",
+        "value": 36.98,
+        "format": "percent"
+      }
+    ],
+    "widgets":[
+      {
+        "widgetId": 11,
+        "title": "Test Data AA",
+        "data": {
+          "value": 45.562,
+          "format": "percent"
+        },
+        "status": 3
+      },
+      {
+        "widgetId": 12,
+        "title": "Test Data AB",
+        "data": {
+          "value": "No Data",
+          "format": ""
+        },
+        "status": 0
+      },
+      {
+        "widgetId": 13,
+        "title": "Test Data AC",
+        "data": {
+          "value": "2021-05-01",
+          "format": "date"
+        },
+        "status": 1
+      }
+
+    ],
+    "listSchema": [
+      {
+        "label": "Name",
+        "property": "name",
+        "format": "",
+        "order": 1
+      },
+      {
+        "label": "Posistion",
+        "property": "rank",
+        "format": "",
+        "order": 2
+      },
+      {
+        "label": "Rating",
+        "property": "rate",
+        "format": "percent",
+        "order": 3
+      },
+      {
+        "label": "Area",
+        "property": "area",
+        "format": "",
+        "order": 4
+      },
+      {
+        "label": "",
+        "property": "status",
+        "format": "status",
+        "order": 5
+      }
+    ],
+    "list": [
+      {
+        "name": "Name 1",
+        "rank": "Manager",
+        "rate": 82.45,
+        "area": "London",
+        "status": 1
+      },
+      {
+        "name": "Name 2",
+        "rank": "",
+        "rate": 23.77,
+        "area": "Oxford",
+        "status": 3
+      },
+      {
+        "name": "Name 3",
+        "rank": "2",
+        "rate": 43.22,
+        "area": "Newcastle",
+        "status": 0
+      },
+      {
+        "name": "Name 4",
+        "rank": "#Training",
+        "rate": 50,
+        "area": "Poole",
+        "status": 2
+      },
+      {
+        "name": "Name 5",
+        "rank": "Supervisor",
+        "rate": 88.88,
+        "area": "Hove",
+        "status": 3
+      }
+    ]
+}

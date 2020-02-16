@@ -1,0 +1,86 @@
+{
+  "title": "Test Data F Results",
+  "display": [
+    {
+      "label": "Claims",
+      "value": 32,
+      "format": ""
+    },
+    {
+      "label": "% returned",
+      "value": 12.02,
+      "format": "percent"
+    },
+    {
+      "label": "Total Value",
+      "value": 1122345.67,
+      "format": "currency"
+    },
+    {
+      "label": "Complaints",
+      "value": 12,
+      "format": ""
+    }
+  ],
+  "widgets": [
+
+  ],
+  "listSchema": [
+    {
+      "label": "Office",
+      "property": "office",
+      "format": "",
+      "order": 1
+    },
+    {
+      "label": "Claims",
+      "property": "claims",
+      "format": "",
+      "order": 2
+    },
+    {
+      "label": "% returned",
+      "property": "retuned",
+      "format": "percent",
+      "order": 3
+    },
+    {
+      "label": "Status",
+      "property": "status",
+      "format": "status",
+      "order": 4
+    }
+  ],
+  "list": [
+    {
+      "office": "London - North",
+      "claims": 55,
+      "returned": 2,
+      "status": 1
+    },
+    {
+      "office": "London - South",
+      "claims": 2,
+      "returned": 50,
+      "status": 3
+    },
+    {
+      "office": "Midlands",
+      "claims": 12,
+      "returned": 15,
+      "status": 2
+    },
+    {
+      "office": "Scotland",
+      "claims": 24,
+      "returned": 8,
+      "status": 2
+    },
+    {
+      "office": "NI",
+      "claims": 16,
+      "returned": 25,
+      "status": 3
+    }
+  ]
+}

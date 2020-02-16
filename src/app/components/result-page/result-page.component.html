@@ -1,0 +1,43 @@
+<app-top-nav [pageTitle]="homeTitle" [back]=true></app-top-nav>
+
+<div class="main-areas">
+    <div class="main">
+        <div class="card sm" *ngFor="let d of display">       
+            <p class="sub-title">{{d.label}}</p>
+            <div [ngSwitch]="d.format">
+                <span class="value" *ngSwitchCase="'date'">{{d.value | dateP}}</span>
+                <span class="value" *ngSwitchCase="'percent'">{{(d.value/100) | percent:'1.1'}}</span>
+                <span class="value" *ngSwitchCase="'currency'">{{d.value | currency:'GBP'}}</span>
+                <span class="value" *ngSwitchDefault>{{d.value}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="card bg" *ngFor="let w of widgets">  
+            <p class="sub-title">{{w.title}}</p>
+            <div [ngSwitch]="w.data.format">
+                <span class="value" *ngSwitchCase="'date'">{{w.data.value | dateP}}</span>
+                <span class="value" *ngSwitchCase="'percent'">{{(w.data.value/100) | percent:'1.1'}}</span>
+                <span class="value" *ngSwitchCase="'currency'">{{w.data.value | currency:'GBP'}}</span>
+                <span class="value" *ngSwitchDefault>No Data</span>
+            </div>
+            <div [ngSwitch]="w.status">
+                <span class="status green" *ngSwitchCase="'1'"><p class="body-text white">Good</p></span>
+                <span class="status yellow" *ngSwitchCase="'2'"><p class="body-text white">Warning</p></span>
+                <span class="status red" *ngSwitchCase="'3'"><p class="body-text white">Danger</p></span>
+                <span *ngSwitchDefault></span>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="card" *ngFor="let group of groups">    
+            <div class="body-text" *ngFor="let unit of group">
+                <p>{{unit | beauty}}</p> 
+                <span *ngIf="unit.includes('Status1')" class="status green"><p class="body-text white">Good</p></span>
+                <span *ngIf="unit.includes('Status2')" class="status yellow"><p class="body-text white">Warning</p></span>
+                <span *ngIf="unit.includes('Status3')" class="status red"><p class="body-text white">Danger</p></span>
+                <span *ngIf="unit.includes('Status0')" class="status none"></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,91 @@
+{
+  "title": "Test Data E Results",
+  "display": [
+    {
+      "label": "Energy Usage",
+      "value": "52Kwh",
+      "format": ""
+    },
+    {
+      "label": "Cost",
+      "value": 12023.45,
+      "format": "currency"
+    },
+    {
+      "label": "Provider",
+      "value": "Supplier A",
+      "format": ""
+    },
+    {
+      "label": "Effeciency",
+      "value": "67",
+      "format": "percent"
+    }
+  ],
+  "widgets": [
+    {
+      "widgetId": 51,
+      "title": "Test Data EA",
+      "data": {
+        "value": 22,
+        "format": "percent"
+      },
+      "status": 3
+    }
+  ],
+  "listSchema": [
+    {
+      "label": "Provider",
+      "property": "provider",
+      "format": "",
+      "order": 1
+    },
+    {
+      "label": "Type A",
+      "property": "a",
+      "format": "currency",
+      "order": 2
+    },
+    {
+      "label": "Type B",
+      "property": "b",
+      "format": "currency",
+      "order": 3
+    },
+    {
+      "label": "Type C",
+      "property": "c",
+      "format": "currency",
+      "order": 4
+    },
+    {
+      "label": "Total",
+      "property": "total",
+      "format": "currency",
+      "order": 5
+    }
+  ],
+  "list": [
+    {
+      "provider": "Supplier 1",
+      "a": 0.22,
+      "b": 0.34,
+      "c": 0.67,
+      "total": 122230
+    },
+    {
+      "provider": "Supplier 2",
+      "a": 0.26,
+      "b": 0.45,
+      "c": 0.87,
+      "total": 243330
+    },
+    {
+      "provider": "Supplier 3",
+      "a": 0.03,
+      "b": 0.21,
+      "c": 0.32,
+      "total": 98210.21
+    }
+  ]
+}

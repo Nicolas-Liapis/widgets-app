@@ -1,0 +1,98 @@
+{
+  "title": "Test Data B Results",
+  "display": [
+    {
+      "label": "Iteration",
+      "value": "i46",
+      "format": ""
+    },
+    {
+      "label": "From",
+      "value": "2020-02-01",
+      "format": "date"
+    },
+    {
+      "label": "To",
+      "value": "2020-03-10",
+      "format": "date"
+    }
+  ],
+  "widgets": [
+    {
+      "widgetId": 21,
+      "title": "Test Data BA",
+      "data": {
+        "value": 45.562,
+        "format": "percent"
+      },
+      "status": 3
+    },
+    {
+      "widgetId": 22,
+      "title": "Test Data BB",
+      "data": {
+        "value": 1221.00,
+        "format": "currency"
+      },
+      "status": 2
+    }
+  ],
+  "listSchema": [
+    {
+      "label": "Department",
+      "property": "dept",
+      "format": "",
+      "order": 1
+    },
+    {
+      "label": "% Completed",
+      "property": "comp",
+      "format": "percent",
+      "order": 2
+    },
+    {
+      "label": "Test Completed",
+      "property": "test",
+      "format": "",
+      "order": 4
+    },
+    {
+      "label": "Dept Score",
+      "property": "score",
+      "format": "",
+      "order": 3
+    }
+  ],
+  "list": [
+    {
+      "dept": "Department 1",
+      "comp": 89,
+      "test": "Yes",
+      "score": 45
+    },
+    {
+      "dept": "Department 2",
+      "comp": 77,
+      "test": "Yes",
+      "score": 34
+    },
+    {
+      "dept": "Department 3",
+      "comp": 32.87,
+      "test": "No",
+      "score": 54
+    },
+    {
+      "dept": "Department 4",
+      "comp": 67.2,
+      "test": "Yes",
+      "score": 67
+    },
+    {
+      "dept": "Department 5",
+      "comp": 45.8,
+      "test": "Yes",
+      "score": 23
+    }
+  ]
+}
